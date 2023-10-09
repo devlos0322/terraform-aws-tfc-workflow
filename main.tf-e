@@ -1,11 +1,11 @@
 terraform {
-  # cloud {
-  #   organization = "devlos"
-  #   hostname     = "app.terraform.io" # default
+  cloud {
+    organization = "<MY-ORG>"
+    hostname     = "app.terraform.io" # default
 
-  #   workspaces {
-  #     name = "terraform-aws-tfc-workflow"
-  #   }
+    workspaces {
+      name = "terraform-aws-tfc-workflow"
+    }
   }
   required_providers {
     aws = {
